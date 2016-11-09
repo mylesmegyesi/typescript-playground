@@ -4,6 +4,6 @@ import { Greeter } from "SomeNamespace/Greeter"; // NOTICE! importing relative t
 describe("Greeter", function() {
   it("appends ', World'", function() {
     var greeter = new Greeter("Hello");
-    expect(greeter.greet()).toEqual("Hello, World");
+    expect(greeter.greet()).toEqual("Hello, World, Text");
   });
 });
